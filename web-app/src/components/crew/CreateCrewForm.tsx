@@ -37,7 +37,7 @@ export const CreateCrewForm: React.FC<Props> = ({ form, initialValues, onSubmit,
       </Form.Item>
 
       <Form.Item name="age" label="Age" rules={[{ required: true }]}>
-        <InputNumber min={18} max={100} />
+        <InputNumber min={16} max={100} />
       </Form.Item>
 
       <Form.Item name="email" label="Email" rules={[{ required: true }]}>

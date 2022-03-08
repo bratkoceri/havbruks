@@ -38,7 +38,7 @@ export const CreateEditBoatForm: React.FC<Props> = ({ form, initialValues, onSub
       </Form.Item>
 
       <Form.Item name="buildNumber" label="Build number" rules={[{ required: true }]}>
-        <InputNumber min={18} max={100} />
+        <InputNumber min={1} max={100} />
       </Form.Item>
 
       <Form.Item name="loa" label="Max length" rules={[{ required: true }]}>
